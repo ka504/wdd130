@@ -22,17 +22,16 @@ main img{
 
 p {padding: 0;}
 
-aside{
+aside{ 
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb (0 0 0 / 0.2); /* 1 */
+    border: 1px solid rgb (0,0,0 / 0.2); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
-
-img aside{
+aside img{
     width: 200px;
     height: auto;
 }
