@@ -22,8 +22,37 @@ header, main, footer{
     width: 840px;
     margin: 0 auto;
 }
+header img{
+   display: inline-block;
+}
+header{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    justify-items: end;
+    border-bottom: 1px solid var(--secondary-color);
+    max-width: 1000px;
+}
+.navigation li{
 
+    display: inline-block;
+    background-color: var(--accent2-color);
+}
 
+.navigation a{
+    display: block;
+    color: var(--primary-color);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+   
+    
+}
 h1, h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -37,6 +66,7 @@ nav, p, section, article{
 nav img{
     width: 32px;
     height: auto;
+    
 }
 .socialmedia a {
     text-decoration: none;
