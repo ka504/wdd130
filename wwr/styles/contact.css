@@ -85,12 +85,38 @@ form {
   gap: 10px;
 
 }
-
+iframe{
+    border: 0;
+    width: 100%;
+    height: 450px;
+}
 .map {
   flex: 1;
 
   background-color: #e0e0e0;
   padding: 15px;
+}
+
+.employees{
+    
+    justify-content: space-between;
+    gap: 16px;
+    margin: 32px 0;
+}
+section div{
+    display: inline-block;
+}
+.employee3,.employee2, .employee1{
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+}
+.employees img{
+    height: 1px;
+}
+.employee3 img{
+    height: 200px;
+
 }
 /*
 .hero img{
