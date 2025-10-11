@@ -13,62 +13,65 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-
-}
-
 header, main, footer{
     width: 840px;
     margin: 0 auto;
 }
+
 header img{
    display: inline-block;
 }
+
 header{
     margin: 1rem auto;
-    display: grid;
     grid-template-columns: 120px 1fr 1fr;
     justify-items: end;
     border-bottom: 1px solid var(--secondary-color);
     max-width: 1000px;
 }
-.navigation li{
+.navigation{float: right;}
 
+nav img{
+    width: 32px;
+    height: auto;   
+}
+
+.navigation li{
     display: inline-block;
     background-color: var(--accent2-color);
 }
 
 .navigation a{
+    
     display: block;
     color: var(--primary-color);
     padding: 12px;
+    margin-right:10px ;
     text-decoration: none;
     font-size: 1.2rem;
     text-align: center;
 }
-.navigation{
-    display: flex;
-    list-style: none;
-   
-    
-}
-h1, h2{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
 
+
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+
+}
 nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
 
-nav img{
-    width: 32px;
-    height: auto;
-    
+
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
+
+
+
 .socialmedia a {
     text-decoration: none;
 
@@ -85,7 +88,7 @@ nav img{
 }
 
 
-h1{
+.hero h1{
     position: absolute;
     top: 50%;
     width: 100%;
@@ -135,3 +138,163 @@ figcaption{
     border: 4px solid var(--secondary-color);
     border-radius: 8px;
 }
+
+
+
+/*styles for contact page*/
+
+.socialmedia a {
+    text-decoration: none;
+}
+.socialmedia img{
+    width: 32px;
+    height: auto;
+    margin: 0 8px;
+}
+
+.herro p{
+    text-align: center;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero-text {
+  margin-bottom: 20px;
+}
+
+.hero-form {
+  display: flex;
+  gap: 20px;
+}
+
+
+#textarea {
+  height: 100px;
+
+  resize: vertical;
+}
+form {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 15px;
+  gap: 10px;
+
+}
+iframe{
+    border: 0;
+    width: 100%;
+    height: 450px;
+}
+.map {
+  flex: 1;
+
+  background-color: #e0e0e0;
+  padding: 15px;
+}
+
+.employees{
+    
+    justify-content: space-between;
+    gap: 16px;
+    margin: 32px 0;
+}
+section div{
+    display: inline-block;
+}
+.employee3,.employee2, .employee1{
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+}
+.employees img{
+    height: 1px;
+}
+.employee3 img{
+    height: 200px;
+
+}
+
+.employees{
+    display: relative;
+    text-align: center;
+    margin: 32px 0;
+    border: 1px solid var(--accent2-color);
+
+}
+h1{
+
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+    
+}
+/*styles for home page*/
+.home img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    
+    }
+    .newsletter{
+        text-align: center;
+        margin: 32px 0;
+        padding: 16px;
+        border: 1px solid var(--accent2-color);
+        float: right;
+    
+        
+    
+    }
+    .home-main{
+        margin-bottom: 32px;
+        align-items: center;
+    }
+    .welcome{
+        margin: 16px;
+        padding: 8px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .home-main ul{
+        list-style-type: none;
+        text-align: left;
+        display: inline-block;
+    }
+    .whyus{
+        margin: 16px;
+        padding: 8px;
+        position: relative;
+    }
+    .whyus img{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        opacity: 0.34;
+    }
+    .whyus ul{
+        list-style-type: none;
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        background-color: rgb(255, 255, 255);
+        padding: 16px;
+        border-radius: 8px;
+    }
+    .whyus form{
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 16px;
+       
+    }
