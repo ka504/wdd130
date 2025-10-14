@@ -100,9 +100,7 @@ h1, h2{
     
 }
 
-article{
-    position: absolute;
-}
+
 .hero article{
     position: absolute;
     bottom: 20px;
@@ -272,13 +270,14 @@ h1{
     .whyus{
         margin: 16px;
         padding: 8px;
-        position: relative;
     }
-    .whyus img{
+    .join-us img{
         width: 100%;
         height: auto;
         margin-top: 15px;
         opacity: 0.34;
+        float: bottom;
+        
     }
     .whyus ul{
         list-style-type: none;
@@ -286,7 +285,7 @@ h1{
         position: absolute;
         top: 20%;
         left: 5%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(3, 14, 34);
         padding: 16px;
         border-radius: 8px;
     }
@@ -298,3 +297,34 @@ h1{
         padding: 16px;
        
     }
+
+/*styles for trips page*/
+
+.cta h2{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.cta a{
+    text-decoration: none;
+}
+.trip-table table, tr{ 
+    border: 1px solid var(--secondary-color);
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+    text-align: center;
+
+}
+
+.trips-main img{
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trips-main img:hover{
+    width: 100%;
+    height: auto;
+    transition: width 0.5s;
+}
